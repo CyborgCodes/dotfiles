@@ -7,6 +7,7 @@ return {
     { "<leader>pf", "<cmd>Telescope find_files<cr>", desc = "Find Files" },
     { "<leader>ps", "<cmd>Telescope current_buffer_fuzzy_find<cr>", desc = "Find String in Current Buffer" },
     { "<leader>fb", "<cmd>Telescope buffers<cr>", desc = "Find buffers" },
+    { "<leader>td", "<cmd>TodoTelescope<cr>", desc = "Todo Telescope" },
     -- add a keymap to browse plugin files
     {
       "<leader>fp",

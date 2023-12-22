@@ -33,3 +33,13 @@ keymap.set("n", "<leader>Y", [["+Y]])
 --Scroll up and down half a screen and "zz" center view
 keymap.set("n", "<C-d>", "<C-d>zz")
 keymap.set("n", "<C-u>", "<C-u>zz")
+
+--Move line up and down in Visual Line Mode
+keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+
+--Preserve paste register
+keymap.set("x", "<leader>p", [["_dP]])
+
+--Highlight word under cursor to replace
+keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
