@@ -9,7 +9,6 @@ return {
         "html",
         "typescript",
         "css",
-        "css",
         "dart",
       },
 
