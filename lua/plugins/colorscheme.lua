@@ -1,10 +1,10 @@
 return {
   {
-    "folke/tokyonight.nvim",
+    "eldritch-theme/eldritch.nvim",
     lazy = false,
     priority = 1000,
     opts = {
-      style = "storm",
+      colorscheme = "eldritch",
     },
   },
 }
