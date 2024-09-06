@@ -10,6 +10,7 @@ return {
         "typescript",
         "css",
         "dart",
+        "solidity",
       },
 
       sync_install = false,

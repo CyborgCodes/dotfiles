@@ -12,6 +12,7 @@ return {
         -- "eslint-lsp",
         "eslint_d",
         "dart-debug-adapter",
+        "solidity",
       },
     },
   },
