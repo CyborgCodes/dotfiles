@@ -19,6 +19,7 @@ return {
         "typescript",
         "vim",
         "yaml",
+        "rust",
       },
 
       sync_install = false,
